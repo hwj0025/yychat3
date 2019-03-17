@@ -1,0 +1,15 @@
+package com.yychatclient.view;
+
+import javax.swing.JTextArea;
+
+public class FriendChat {
+
+	
+	JTextArea jta;
+	
+	public static void main(String[] args) {
+		
+
+	}
+
+}

@@ -1,0 +1,19 @@
+package com.yychatclient.view;
+
+import javax.swing.*;
+
+public class FriendChat {
+
+	
+	JScrollPane jsp;
+	JTextArea jta;
+	
+	
+	JTextField jtf;
+	
+	public static void main(String[] args) {
+		
+
+	}
+
+}

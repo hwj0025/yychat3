@@ -1,0 +1,16 @@
+package com.yychatserver.controller;
+
+import java.io.IOException;
+import java.net.ServerSocket;
+
+public class StartServer {
+	ServerSocket ss;
+	public StartServer(){
+	 //try {
+		//ss=new ServerSocket(3456);
+	//	
+//	} catch (IOException e) {
+	//	e.printStackTrace();
+	//}
+	}
+}

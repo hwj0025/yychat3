@@ -1,0 +1,10 @@
+package com.yychatserver.controller;
+
+import java.net.ServerSocket;
+
+public class StartServer {
+
+	public StartServer(){
+		new ServerSocket(3456);
+	}
+}

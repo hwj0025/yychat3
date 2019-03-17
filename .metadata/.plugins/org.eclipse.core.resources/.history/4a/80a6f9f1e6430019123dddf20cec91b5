@@ -1,0 +1,43 @@
+package com.yychatclient.view;
+
+import javax.swing.*;
+
+public class ClientLogin extends JFrame{
+	
+	JLabel jlbl1;
+	
+	
+	JTabbedPane jtp1;
+	JPanel jp2,jp3,jp4;
+	JButton jb1,jb2,jb3;
+	JPanel jp1;
+	public ClientLogin(){
+	jlbl1=new JLabel(new ImageIcon("images/tou.gif"));
+	
+	this.add(jlbl1,"North");
+	this.setSize(350,240);
+	
+	
+	
+	
+	jp2=new JPanel();jp3=new JPanel();jp4=new JPanel();
+	jtp1=new JTabbedPane();
+	this.add(jtp1);
+	jb1=new JButton(new ImageIcon("images/denglu.gif"));
+	jb2=new JButton(new ImageIcon("images/zhuce.gif"));
+	jb3=new JButton(new ImageIcon("images/quxiao.gif"));
+	jp1=new JPanel();
+	jp1.add(jb1);jp1.add(jb2);jp1.add(jb3);
+	this.add(jp1,"South");
+	
+	this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+	this.setVisible(true);
+	}
+	
+
+	public static void main(String[] args) {
+		ClientLogin clientLogin=new ClientLogin();
+
+	}
+
+}

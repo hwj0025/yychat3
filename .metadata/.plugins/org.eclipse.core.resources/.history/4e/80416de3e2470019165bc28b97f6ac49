@@ -1,0 +1,19 @@
+package com.yychatserver.view;
+
+import javax.swing.JButton;
+
+public class ChatServer {
+
+	JButton jb1;
+	JButton jb2;
+	
+	public ChatServer(){
+		jb1=new JButton("启动服务器");
+		jb2=new JButton("停止服务器");
+	}
+	public static void main(String[] args) {
+		
+
+	}
+
+}

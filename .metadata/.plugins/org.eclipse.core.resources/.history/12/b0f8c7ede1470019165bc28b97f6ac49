@@ -1,0 +1,14 @@
+package com.yychatserver.view;
+
+import javax.swing.JButton;
+
+public class ChatServer {
+
+	JButton jb1;
+	
+	public static void main(String[] args) {
+		
+
+	}
+
+}

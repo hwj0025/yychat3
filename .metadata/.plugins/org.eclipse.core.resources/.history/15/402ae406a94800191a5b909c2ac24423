@@ -1,0 +1,9 @@
+package com.yychatclient.control;
+
+import java.net.Socket;
+
+public class ClientConnect {
+   public ClientConnect(){
+	   new Socket();
+   }
+}

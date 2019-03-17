@@ -1,0 +1,39 @@
+package com.yychatclient.view;
+
+import javax.swing.*;
+
+public class FriendChat extends JFrame{
+
+	
+	JScrollPane jsp;
+	JTextArea jta;
+	
+	
+	JPanel jp;
+	JTextField jtf;
+	JButton jb;
+	
+	public FriendChat(){
+		jta=new JTextArea();
+		jsp=new JScrollPane(jta);
+		this.add(jsp);
+		
+		jp=new JPanel();
+		jtf=new JTextField(15);
+		jb=new JButton("·¢ËÍ");
+		jp.add(jtf);
+		jp.add(jb);
+		this.add(jp);
+		
+		this.setSize(350,240);
+		//this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		this.setLocationRelativeTo(null);
+		
+	}
+	
+	public static void main(String[] args) {
+		
+
+	}
+
+}
